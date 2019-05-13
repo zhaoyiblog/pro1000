@@ -1,0 +1,137 @@
+#record
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#record1
+{
+}
+.item
+{
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+#record p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #101010;
+    font-size: 15px;
+
+}
+#record1 p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #101010;
+    font-size: 15px;
+
+}
+#record input
+{
+    width:280px;
+    margin-bottom: 20px;
+}
+#record input[type="checkbox"]
+{
+    width:30px;
+    margin-bottom: 20px;
+}
+#record input[type="checkbox"]
+{
+    width:30px;
+    margin-bottom: 20px;
+}
+#record1 input
+{
+    width: 280px;
+    margin-bottom: 20px;
+}
+#record input[type="text"],
+#record input[type="password"]
+{
+    border:  1px solid #101010;
+    /*border-bottom: 1px solid #101010;*/
+    /*background: transparent;*/
+    outline: none;
+    height: 30px;
+    color: rgba(16, 16, 16, 0.74);
+    font-size: 15px;
+}
+#record input[type="text"],
+#record input[type="date"],
+#record1 input[type="password"]
+{
+    border:  1px solid #101010;
+    /*border-bottom: 1px solid #101010;*/
+    /*background: transparent;*/
+    outline: none;
+    height: 30px;
+    color: rgba(16, 16, 16, 0.74);
+    font-size: 15px;
+}
+
+#record select
+{
+    border:  1px solid #101010;
+    height: 30px;
+    width: 100px;
+}
+#record1 select
+{
+    border:  1px solid #101010;
+    height: 30px;
+    width: 100px;
+}
+
+::placeholder
+{
+    color: rgba(94, 94, 94, 0.5);
+}
+#record input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    margin-left: 0px;
+    color: #fff;
+    font-size: 16px;
+    background: #809fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#record1 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    margin-left: 0px;
+    color: #fff;
+    font-size: 16px;
+    background: #809fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#record input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+#record1 input[type="submit"]:hover
+{
+    background: #efed40;
+    color: #262626;
+}
+#record div
+{
+    margin-top: 5px;
+}
+
+#record1 div
+{
+}

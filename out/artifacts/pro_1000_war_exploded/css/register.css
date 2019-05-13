@@ -1,0 +1,68 @@
+
+nav
+{
+	background: white;
+}
+
+
+.regsiter
+{
+	margin-left: 20px;
+}
+.regsiter p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #101010;
+	font-size: 15px;
+
+}
+.regsiter input
+{
+	width: 280px;
+	margin-bottom: 20px;
+	
+
+}
+.regsiter input[type="text"],
+.regsiter input[type="password"]
+{
+	border:  1px solid #101010;
+	/*border-bottom: 1px solid #101010;*/
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: rgba(16, 16, 16, 0.74);
+	font-size: 15px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.regsiter input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100px;
+	margin-left: 100px;
+	color: #fff;
+	font-size: 16px;
+	background: #809fff;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.regsiter input[type="submit"]:hover
+{
+	background: #efed40;
+	color: #262626;
+}
+.regsiter a
+{
+	margin-top: -20px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
